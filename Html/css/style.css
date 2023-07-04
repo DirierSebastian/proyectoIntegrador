@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/img/Biblioteca.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  header {
+    text-align: center;
+    background-color: #282828;
+    border: 5px outset #282828(0, 0, 0); 
+    color: solid black; 
+    top: 0px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+
+    img{
+      float:left;
+      width: 160px;
+      height: 73px;
+  }
+
+  h1{
+    color: #ccc;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .login {
+    margin-bottom: 15px;
+  }
+  .loginR {
+    margin:auto;
+  }
+  
+  .login label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .login input[type="text"],
+  .login input[type="password"] {
+    width: 100%;
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .login button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .login button:hover {
+    background-color: #1b5524;
+  }

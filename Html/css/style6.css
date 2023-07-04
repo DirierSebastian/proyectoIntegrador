@@ -1,0 +1,129 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+html{
+    font-size: 80%;
+    overflow: hidden;
+}
+
+body{
+    background-image: url(/img/Biblioteca.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form{
+    min-height: 100vh;
+    padding: 0;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+    margin: 0;
+    
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #282828;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+fieldset{
+    background-color: white;
+    border: 3px solid black;
+    width: 1000px;
+    padding: 20px;
+    opacity: 80%;
+}
+
+header img{
+    float:left;
+    width: 160px;
+    height: 73px;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    text-align: center;
+    list-style: none;
+    background-color: #282828;
+    text-transform: uppercase;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    padding: 2em 1em;
+    font-size: 15px;
+}
+
+.navbar li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #282828;
+}
+
+.navbar > li{
+    float: left;
+}
+
+.navbar li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.navbar li:hover > ul{
+    display: block;
+}
+
+
+.navbar a:hover{
+    background-color: #464545;
+}
+
+.aulas{
+    display: flex;
+    align-items: top;
+    justify-content: left;
+}
+
+.aulas li a{
+    text-decoration: none;
+    color: black;
+}
+
+.aulas ul li{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.aulas a:hover{
+    background-color: antiquewhite;
+}
+
+.borde-Leyenda{
+    color: black;
+    font-size: 35px;
+}
+
